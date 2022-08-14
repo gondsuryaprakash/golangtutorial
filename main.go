@@ -1,13 +1,13 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/gondsuryaprakash/gotutorial/pointer"
-)
+import "github.com/gondsuryaprakash/gotutorial/concurrency"
 
 func main() {
-	fmt.Println("Hello world")
-	pointer.PointerToPointer()
+	// fmt.Println("Hello world")
+	// pointer.PointerToPointer()
+
+	// concurrency.War()
+	concurrency.ChannelExplantion()
+	concurrency.ChannelExplantion2()
 
 }
